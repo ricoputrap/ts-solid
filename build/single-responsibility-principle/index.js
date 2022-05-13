@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Shape_1 = __importDefault(require("./Shape"));
-function default_1() {
+const main = () => {
     (0, Shape_1.default)();
-}
-exports.default = default_1;
+};
+exports.default = main;

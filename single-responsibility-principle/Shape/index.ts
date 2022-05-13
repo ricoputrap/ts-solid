@@ -6,7 +6,7 @@ import Square from "./Square";
 /**
  * src: https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
  */
-export default function () {
+const main = () => {
   const circle = new Circle(2);
   const square1 = new Square(5);
   const square2 = new Square(6);
@@ -18,3 +18,5 @@ export default function () {
   console.log(output.getJSON());
   console.log(output.getSimpleResult());
 }
+
+export default main;

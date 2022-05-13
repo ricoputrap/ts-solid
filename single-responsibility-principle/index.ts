@@ -1,5 +1,7 @@
-import Shape from "./Shape";
+import mainShape from "./Shape";
 
-export default function() {
-  Shape();
+const main = () => {
+  mainShape();
 }
+
+export default main;

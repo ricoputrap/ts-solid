@@ -1,3 +1,3 @@
-import singleResponsibilityPrinciple from "./single-responsibility-principle/Book";
+import mainSRP from "./single-responsibility-principle/Shape";
 
-singleResponsibilityPrinciple();
+mainSRP();
