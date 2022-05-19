@@ -1,3 +1,5 @@
-import mainSRP from "./single-responsibility-principle/Shape";
+// import mainSRP from "./single-responsibility-principle/Shape";
+import mainOCP from "./open-closed-principle";
 
-mainSRP();
+// mainSRP();
+mainOCP();
